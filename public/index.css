@@ -1,14 +1,72 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
+div {
+    margin: 0.25rem;
 }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+p,h4{
+    margin: 0.25rem;
+}
+
+.js-issues__title {
+    margin: 0;
+}
+
+.js-issues__header,
+.js-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.js-issues__item {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin: 0.25rem;
+    padding: 0.25rem;
+}
+
+
+a {
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.js-issues__label{
+    border-radius: 5px;
+    margin-right: 0.25rem;
+    padding: 0.25rem;
+    background-color: lightblue;
+
+}
+
+/* PAGINATION */
+
+.js-pagination {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.js-pagination__btn {
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.js-pagination__btn:hover {
+    background-color: rgb(230, 213, 223);
+}
+
+.active{
+    background-color: yellow;
 }
