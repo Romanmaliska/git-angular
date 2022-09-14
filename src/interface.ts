@@ -7,3 +7,14 @@ export interface IssueInterface {
     comments: number;
     state: string;
 }
+
+export interface filterParamsInterface {
+    issueState: "open" | "closed";
+    direction: "asc" | "desc" | undefined;
+    sort: "comments" | "date" | undefined;
+    pageNumber: number;
+}
+
+export interface responseInterface {
+    
+}
